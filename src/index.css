@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  /* margin:0; */
+}
+
+@theme {
+  --mian-grid-cols: 10vw minmax(90vw, 1fr);
+  --color-main: rgb(0, 0, 0);
+  --breakpoint-sm: 485px;
+  --font-nunito: "Nunito", "sans-serif";
+  --equal-cols: 1fr 1fr;
+  --main-cols: 5fr 4fr;
+  --table-services-sm-cols: 30px 3fr 1fr 30px;
+  --table-services-md-cols: 30px minmax(230px, 2fr) minmax(30px, 1fr)
+    minmax(30px, 1fr) 1fr 30px;
+  --table-services-cols: 30px minmax(230px, 2fr) minmax(80px, 1fr)
+    minmax(80px, 2fr) minmax(130px, 1fr) 40px;
+  --invoices-table-cols: minmax(80px, 1fr) minmax(120px, 1fr) minmax(50px, 1fr)
+    minmax(50px, 1fr) minmax(50px, 1fr) 50px;
+}
+

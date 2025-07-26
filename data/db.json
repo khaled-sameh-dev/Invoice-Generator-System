@@ -1,0 +1,1118 @@
+{
+  "products": [
+    {
+      "id": "prod_001",
+      "name": "MacBook Pro 14\"",
+      "brand": "Apple",
+      "category": "Laptops",
+      "price": 1999.99,
+      "stock": 15
+    },
+    {
+      "id": "prod_002",
+      "name": "Dell XPS 15",
+      "brand": "Dell",
+      "category": "Laptops",
+      "price": 1599.99,
+      "stock": 8
+    },
+    {
+      "id": "prod_003",
+      "name": "iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "Phones",
+      "price": 999.99,
+      "stock": 22
+    },
+    {
+      "id": "prod_004",
+      "name": "Samsung Galaxy S23",
+      "brand": "Samsung",
+      "category": "Phones",
+      "price": 799.99,
+      "stock": 18
+    },
+    {
+      "id": "prod_005",
+      "name": "Logitech MX Master 3",
+      "brand": "Logitech",
+      "category": "Accessories",
+      "price": 99.99,
+      "stock": 35
+    }
+  ],
+  "clients": [
+    {
+      "id": "client_001",
+      "name": "Tech Solutions Inc.",
+      "email": "contact@techsolutions.com",
+      "phone": "+201234567890",
+      "address": "123 Nile St., Cairo",
+      "logoUrl": "/logos/tech-solutions.png",
+      "isTemp": false
+    },
+    {
+      "id": "client_002",
+      "name": "Digital Creatives LLC",
+      "email": "info@digitalcreatives.com",
+      "phone": "+201098765432",
+      "address": "456 Garden City, Cairo",
+      "logoUrl": "/logos/digital-creatives.png",
+      "isTemp": false
+    },
+    {
+      "id": "client_003",
+      "name": "Future Enterprises",
+      "email": "sales@futureent.com",
+      "phone": "+201112223334",
+      "address": "789 Zamalek, Cairo",
+      "logoUrl": "/logos/future-enterprises.png",
+      "isTemp": false
+    },
+    {
+      "id": "client_004",
+      "name": "Innovate Egypt",
+      "email": "hello@innovateegypt.com",
+      "phone": "+201556667778",
+      "address": "321 Heliopolis, Cairo",
+      "logoUrl": "/logos/innovate-egypt.png",
+      "isTemp": false
+    },
+    {
+      "id": "client_005",
+      "name": "Cairo Tech Hub",
+      "email": "support@cairohub.com",
+      "phone": "+201889990001",
+      "address": "654 Maadi, Cairo",
+      "logoUrl": "/logos/cairo-tech-hub.png",
+      "isTemp": false
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_006",
+      "title": "Q3 Software Licenses",
+      "number": "INV-2023-006",
+      "date": "2023-10-05",
+      "dueDate": "2023-11-05",
+      "status": "draft",
+      "client": {
+        "id": "client_001",
+        "name": "Tech Solutions Inc.",
+        "email": "contact@techsolutions.com",
+        "phone": "+201234567890",
+        "address": "123 Nile St., Cairo",
+        "logoUrl": "/logos/tech-solutions.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Microsoft Office 365 Subscription",
+          "price": 120,
+          "quantity": 15,
+          "currency": "USD",
+          "amount": 1800
+        }
+      ],
+      "notes": "Annual subscription renewal",
+      "subtotal": 1800,
+      "taxTotal": 270,
+      "total": 2070,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-05T09:00:00Z"
+    },
+    {
+      "id": "inv_007",
+      "title": "Website Maintenance",
+      "number": "INV-2023-007",
+      "date": "2023-10-06",
+      "dueDate": "2023-11-06",
+      "status": "archived",
+      "client": {
+        "id": "client_002",
+        "name": "Digital Creatives LLC",
+        "email": "info@digitalcreatives.com",
+        "phone": "+201098765432",
+        "address": "456 Garden City, Cairo",
+        "logoUrl": "/logos/digital-creatives.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Monthly Website Maintenance",
+          "price": 500,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 500
+        }
+      ],
+      "notes": "Includes security updates and backups",
+      "subtotal": 500,
+      "taxTotal": 75,
+      "total": 575,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-06T11:30:00Z"
+    },
+    {
+      "id": "inv_008",
+      "title": "Marketing Campaign",
+      "number": "INV-2023-008",
+      "date": "2023-10-07",
+      "dueDate": "2023-11-07",
+      "status": "paid",
+      "client": {
+        "id": "client_003",
+        "name": "Future Enterprises",
+        "email": "sales@futureent.com",
+        "phone": "+201112223334",
+        "address": "789 Zamalek, Cairo",
+        "logoUrl": "/logos/future-enterprises.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Social Media Campaign",
+          "price": 2000,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 2000
+        }
+      ],
+      "notes": "Campaign duration: 1 month",
+      "subtotal": 2000,
+      "taxTotal": 300,
+      "total": 2300,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-07T14:15:00Z"
+    },
+    {
+      "id": "inv_009",
+      "title": "Office Equipment Purchase",
+      "number": "INV-2023-009",
+      "date": "2023-09-28",
+      "dueDate": "2023-10-28",
+      "status": "paid",
+      "client": {
+        "id": "client_004",
+        "name": "Innovate Egypt",
+        "email": "hello@innovateegypt.com",
+        "phone": "+201556667778",
+        "address": "321 Heliopolis, Cairo",
+        "logoUrl": "/logos/innovate-egypt.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "item",
+          "description": "Samsung Galaxy S23",
+          "price": 799.99,
+          "quantity": 8,
+          "currency": "USD",
+          "productId": "prod_004",
+          "amount": 6399.92
+        }
+      ],
+      "notes": "For new employees",
+      "subtotal": 6399.92,
+      "taxTotal": 960,
+      "total": 7359.92,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-09-28T10:45:00Z",
+      "paidDate": "2023-10-05"
+    },
+    {
+      "id": "inv_010",
+      "title": "Overdue IT Services",
+      "number": "INV-2023-010",
+      "date": "2023-09-01",
+      "dueDate": "2023-10-01",
+      "status": "overdue",
+      "client": {
+        "id": "client_005",
+        "name": "Cairo Tech Hub",
+        "email": "support@cairohub.com",
+        "phone": "+201889990001",
+        "address": "654 Maadi, Cairo",
+        "logoUrl": "/logos/cairo-tech-hub.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Network Setup and Configuration",
+          "price": 1500,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 1500
+        }
+      ],
+      "notes": "Urgent payment required",
+      "subtotal": 1500,
+      "taxTotal": 225,
+      "total": 1725,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-09-01T08:30:00Z"
+    },
+    {
+      "id": "inv_011",
+      "title": "Cancelled Project",
+      "number": "INV-2023-011",
+      "date": "2023-08-15",
+      "dueDate": "2023-09-15",
+      "status": "cancelled",
+      "client": {
+        "id": "client_001",
+        "name": "Tech Solutions Inc.",
+        "email": "contact@techsolutions.com",
+        "phone": "+201234567890",
+        "address": "123 Nile St., Cairo",
+        "logoUrl": "/logos/tech-solutions.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Custom Software Development",
+          "price": 5000,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 5000
+        }
+      ],
+      "notes": "Project cancelled by client",
+      "subtotal": 5000,
+      "taxTotal": 750,
+      "total": 5750,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-08-15T09:00:00Z",
+      "cancelledDate": "2023-08-20"
+    },
+    {
+      "id": "inv_012",
+      "title": "Archived Invoice",
+      "number": "INV-2023-012",
+      "date": "2023-01-10",
+      "dueDate": "2023-02-10",
+      "status": "archived",
+      "client": {
+        "id": "client_002",
+        "name": "Digital Creatives LLC",
+        "email": "info@digitalcreatives.com",
+        "phone": "+201098765432",
+        "address": "456 Garden City, Cairo",
+        "logoUrl": "/logos/digital-creatives.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "item",
+          "description": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 3,
+          "currency": "USD",
+          "productId": "prod_001",
+          "amount": 5999.97
+        }
+      ],
+      "notes": "Archived after 6 months",
+      "subtotal": 5999.97,
+      "taxTotal": 900,
+      "total": 6899.97,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-01-10T10:00:00Z",
+      "paidDate": "2023-01-15",
+      "archivedDate": "2023-07-10"
+    },
+    {
+      "id": "inv_013",
+      "title": "Annual Support Contract",
+      "number": "INV-2023-013",
+      "date": "2023-10-08",
+      "dueDate": "2023-11-08",
+      "status": "draft",
+      "client": {
+        "id": "client_003",
+        "name": "Future Enterprises",
+        "email": "sales@futureent.com",
+        "phone": "+201112223334",
+        "address": "789 Zamalek, Cairo",
+        "logoUrl": "/logos/future-enterprises.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Premium Support Package",
+          "price": 3000,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 3000
+        }
+      ],
+      "notes": "Renewal for 2024",
+      "subtotal": 3000,
+      "taxTotal": 450,
+      "total": 3450,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-08T13:20:00Z"
+    },
+    {
+      "id": "inv_014",
+      "title": "Mobile App Development",
+      "number": "INV-2023-014",
+      "date": "2023-10-09",
+      "dueDate": "2023-11-09",
+      "status": "pending",
+      "client": {
+        "id": "client_004",
+        "name": "Innovate Egypt",
+        "email": "hello@innovateegypt.com",
+        "phone": "+201556667778",
+        "address": "321 Heliopolis, Cairo",
+        "logoUrl": "/logos/innovate-egypt.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "iOS App Development",
+          "price": 8000,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 8000
+        },
+        {
+          "type": "service",
+          "description": "Android App Development",
+          "price": 7000,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 7000
+        }
+      ],
+      "notes": "50% advance payment received",
+      "subtotal": 15000,
+      "taxTotal": 2250,
+      "total": 17250,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-09T15:45:00Z"
+    },
+    {
+      "id": "inv_015",
+      "title": "IT Infrastructure Upgrade",
+      "number": "INV-2023-015",
+      "date": "2023-10-10",
+      "dueDate": "2023-11-10",
+      "status": "sent",
+      "client": {
+        "id": "client_005",
+        "name": "Cairo Tech Hub",
+        "email": "support@cairohub.com",
+        "phone": "+201889990001",
+        "address": "654 Maadi, Cairo",
+        "logoUrl": "/logos/cairo-tech-hub.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "item",
+          "description": "Dell XPS 15",
+          "price": 1599.99,
+          "quantity": 5,
+          "currency": "USD",
+          "productId": "prod_002",
+          "amount": 7999.95
+        },
+        {
+          "type": "service",
+          "description": "Setup and Configuration",
+          "price": 1000,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 1000
+        }
+      ],
+      "notes": "For new office setup",
+      "subtotal": 8999.95,
+      "taxTotal": 1350,
+      "total": 10349.95,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-10T11:10:00Z"
+    },
+    {
+      "id": "inv_016",
+      "title": "Cloud Services Subscription",
+      "number": "INV-2023-016",
+      "date": "2023-09-20",
+      "dueDate": "2023-10-20",
+      "status": "paid",
+      "client": {
+        "id": "client_001",
+        "name": "Tech Solutions Inc.",
+        "email": "contact@techsolutions.com",
+        "phone": "+201234567890",
+        "address": "123 Nile St., Cairo",
+        "logoUrl": "/logos/tech-solutions.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "AWS Enterprise Plan",
+          "price": 2500,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 2500
+        }
+      ],
+      "notes": "Annual subscription",
+      "subtotal": 2500,
+      "taxTotal": 375,
+      "total": 2875,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-09-20T14:30:00Z",
+      "paidDate": "2023-09-25"
+    },
+    {
+      "id": "inv_017",
+      "title": "Delayed Payment",
+      "number": "INV-2023-017",
+      "date": "2023-09-05",
+      "dueDate": "2023-10-05",
+      "status": "overdue",
+      "client": {
+        "id": "client_002",
+        "name": "Digital Creatives LLC",
+        "email": "info@digitalcreatives.com",
+        "phone": "+201098765432",
+        "address": "456 Garden City, Cairo",
+        "logoUrl": "/logos/digital-creatives.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Brand Identity Design",
+          "price": 3500,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 3500
+        }
+      ],
+      "notes": "Second reminder sent",
+      "subtotal": 3500,
+      "taxTotal": 525,
+      "total": 4025,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-09-05T10:15:00Z"
+    },
+    {
+      "id": "inv_018",
+      "title": "Cancelled Order",
+      "number": "INV-2023-018",
+      "date": "2023-08-10",
+      "dueDate": "2023-09-10",
+      "status": "cancelled",
+      "client": {
+        "id": "client_003",
+        "name": "Future Enterprises",
+        "email": "sales@futureent.com",
+        "phone": "+201112223334",
+        "address": "789 Zamalek, Cairo",
+        "logoUrl": "/logos/future-enterprises.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "item",
+          "description": "iPhone 15 Pro",
+          "price": 999.99,
+          "quantity": 10,
+          "currency": "USD",
+          "productId": "prod_003",
+          "amount": 9999.9
+        }
+      ],
+      "notes": "Order cancelled before shipment",
+      "subtotal": 9999.9,
+      "taxTotal": 1500,
+      "total": 11499.9,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-08-10T09:45:00Z",
+      "cancelledDate": "2023-08-12"
+    },
+    {
+      "id": "inv_019",
+      "title": "Old Archived Invoice",
+      "number": "INV-2023-019",
+      "date": "2022-12-20",
+      "dueDate": "2023-01-20",
+      "status": "archived",
+      "client": {
+        "id": "client_004",
+        "name": "Innovate Egypt",
+        "email": "hello@innovateegypt.com",
+        "phone": "+201556667778",
+        "address": "321 Heliopolis, Cairo",
+        "logoUrl": "/logos/innovate-egypt.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "item",
+          "description": "Logitech MX Master 3",
+          "price": 99.99,
+          "quantity": 25,
+          "currency": "USD",
+          "productId": "prod_005",
+          "amount": 2499.75
+        }
+      ],
+      "notes": "Archived after 6 months",
+      "subtotal": 2499.75,
+      "taxTotal": 375,
+      "total": 2874.75,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2022-12-20T11:00:00Z",
+      "paidDate": "2022-12-28",
+      "archivedDate": "2023-06-20"
+    },
+    {
+      "id": "inv_020",
+      "title": "Quarterly Maintenance",
+      "number": "INV-2023-020",
+      "date": "2023-10-11",
+      "dueDate": "2023-11-11",
+      "status": "draft",
+      "client": {
+        "id": "client_005",
+        "name": "Cairo Tech Hub",
+        "email": "support@cairohub.com",
+        "phone": "+201889990001",
+        "address": "654 Maadi, Cairo",
+        "logoUrl": "/logos/cairo-tech-hub.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "System Maintenance Q4",
+          "price": 1800,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 1800
+        }
+      ],
+      "notes": "Preparing for year-end",
+      "subtotal": 1800,
+      "taxTotal": 270,
+      "total": 2070,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-11T16:20:00Z"
+    },
+    {
+      "id": "inv_021",
+      "title": "UI/UX Redesign",
+      "number": "INV-2023-021",
+      "date": "2023-10-12",
+      "dueDate": "2023-11-12",
+      "status": "pending",
+      "client": {
+        "id": "client_001",
+        "name": "Tech Solutions Inc.",
+        "email": "contact@techsolutions.com",
+        "phone": "+201234567890",
+        "address": "123 Nile St., Cairo",
+        "logoUrl": "/logos/tech-solutions.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Website UI/UX Redesign",
+          "price": 4500,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 4500
+        }
+      ],
+      "notes": "50% completion milestone",
+      "subtotal": 4500,
+      "taxTotal": 675,
+      "total": 5175,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-12T10:30:00Z"
+    },
+    {
+      "id": "inv_022",
+      "title": "Annual Audit",
+      "number": "INV-2023-022",
+      "date": "2023-10-13",
+      "dueDate": "2023-11-13",
+      "status": "sent",
+      "client": {
+        "id": "client_002",
+        "name": "Digital Creatives LLC",
+        "email": "info@digitalcreatives.com",
+        "phone": "+201098765432",
+        "address": "456 Garden City, Cairo",
+        "logoUrl": "/logos/digital-creatives.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "IT Systems Audit",
+          "price": 3200,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 3200
+        }
+      ],
+      "notes": "Includes full security review",
+      "subtotal": 3200,
+      "taxTotal": 480,
+      "total": 3680,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-13T14:45:00Z"
+    },
+    {
+      "id": "inv_023",
+      "title": "Server Upgrade",
+      "number": "INV-2023-023",
+      "date": "2023-09-22",
+      "dueDate": "2023-10-22",
+      "status": "paid",
+      "client": {
+        "id": "client_003",
+        "name": "Future Enterprises",
+        "email": "sales@futureent.com",
+        "phone": "+201112223334",
+        "address": "789 Zamalek, Cairo",
+        "logoUrl": "/logos/future-enterprises.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "item",
+          "description": "Dell PowerEdge Server",
+          "price": 4500,
+          "quantity": 2,
+          "currency": "USD",
+          "productId": "prod_006",
+          "amount": 9000
+        },
+        {
+          "type": "service",
+          "description": "Installation and Configuration",
+          "price": 1500,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 1500
+        }
+      ],
+      "notes": "Data center upgrade complete",
+      "subtotal": 10500,
+      "taxTotal": 1575,
+      "total": 12075,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-09-22T09:15:00Z",
+      "paidDate": "2023-09-28"
+    },
+    {
+      "id": "inv_024",
+      "title": "Unpaid Consulting",
+      "number": "INV-2023-024",
+      "date": "2023-09-08",
+      "dueDate": "2023-10-08",
+      "status": "overdue",
+      "client": {
+        "id": "client_004",
+        "name": "Innovate Egypt",
+        "email": "hello@innovateegypt.com",
+        "phone": "+201556667778",
+        "address": "321 Heliopolis, Cairo",
+        "logoUrl": "/logos/innovate-egypt.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Business Strategy Consulting",
+          "price": 200,
+          "quantity": 20,
+          "currency": "USD",
+          "amount": 4000
+        }
+      ],
+      "notes": "Final notice before legal action",
+      "subtotal": 4000,
+      "taxTotal": 600,
+      "total": 4600,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-09-08T13:30:00Z"
+    },
+    {
+      "id": "inv_025",
+      "title": "Cancelled Training",
+      "number": "INV-2023-025",
+      "date": "2023-08-18",
+      "dueDate": "2023-09-18",
+      "status": "cancelled",
+      "client": {
+        "id": "client_005",
+        "name": "Cairo Tech Hub",
+        "email": "support@cairohub.com",
+        "phone": "+201889990001",
+        "address": "654 Maadi, Cairo",
+        "logoUrl": "/logos/cairo-tech-hub.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Employee Training Program",
+          "price": 6000,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 6000
+        }
+      ],
+      "notes": "Cancelled due to scheduling conflict",
+      "subtotal": 6000,
+      "taxTotal": 900,
+      "total": 6900,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-08-18T10:00:00Z",
+      "cancelledDate": "2023-08-20"
+    },
+    {
+      "id": "inv_026",
+      "title": "Historical Project",
+      "number": "INV-2023-026",
+      "date": "2022-11-15",
+      "dueDate": "2022-12-15",
+      "status": "archived",
+      "client": {
+        "id": "client_001",
+        "name": "Tech Solutions Inc.",
+        "email": "contact@techsolutions.com",
+        "phone": "+201234567890",
+        "address": "123 Nile St., Cairo",
+        "logoUrl": "/logos/tech-solutions.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Legacy System Migration",
+          "price": 12000,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 12000
+        }
+      ],
+      "notes": "Completed successfully",
+      "subtotal": 12000,
+      "taxTotal": 1800,
+      "total": 13800,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2022-11-15T08:00:00Z",
+      "paidDate": "2022-11-25",
+      "archivedDate": "2023-05-15"
+    },
+    {
+      "id": "inv_027",
+      "title": "New Project Setup",
+      "number": "INV-2023-027",
+      "date": "2023-10-14",
+      "dueDate": "2023-11-14",
+      "status": "draft",
+      "client": {
+        "id": "client_002",
+        "name": "Digital Creatives LLC",
+        "email": "info@digitalcreatives.com",
+        "phone": "+201098765432",
+        "address": "456 Garden City, Cairo",
+        "logoUrl": "/logos/digital-creatives.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Project Initialization",
+          "price": 2500,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 2500
+        }
+      ],
+      "notes": "Waiting for client approval",
+      "subtotal": 2500,
+      "taxTotal": 375,
+      "total": 2875,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-14T12:20:00Z"
+    },
+    {
+      "id": "inv_028",
+      "title": "Marketing Materials",
+      "number": "INV-2023-028",
+      "date": "2023-10-15",
+      "dueDate": "2023-11-15",
+      "status": "pending",
+      "client": {
+        "id": "client_003",
+        "name": "Future Enterprises",
+        "email": "sales@futureent.com",
+        "phone": "+201112223334",
+        "address": "789 Zamalek, Cairo",
+        "logoUrl": "/logos/future-enterprises.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "item",
+          "description": "Printed Brochures",
+          "price": 5,
+          "quantity": 1000,
+          "currency": "USD",
+          "productId": "prod_007",
+          "amount": 5000
+        }
+      ],
+      "notes": "For upcoming conference",
+      "subtotal": 5000,
+      "taxTotal": 750,
+      "total": 5750,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-15T15:40:00Z"
+    },
+    {
+      "id": "inv_029",
+      "title": "Annual Review",
+      "number": "INV-2023-029",
+      "date": "2023-10-16",
+      "dueDate": "2023-11-16",
+      "status": "sent",
+      "client": {
+        "id": "client_004",
+        "name": "Innovate Egypt",
+        "email": "hello@innovateegypt.com",
+        "phone": "+201556667778",
+        "address": "321 Heliopolis, Cairo",
+        "logoUrl": "/logos/innovate-egypt.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Annual IT Review",
+          "price": 3800,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 3800
+        }
+      ],
+      "notes": "Includes recommendations report",
+      "subtotal": 3800,
+      "taxTotal": 570,
+      "total": 4370,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-10-16T11:10:00Z"
+    },
+    {
+      "id": "inv_030",
+      "title": "Emergency Support",
+      "number": "INV-2023-030",
+      "date": "2023-09-25",
+      "dueDate": "2023-10-25",
+      "status": "paid",
+      "client": {
+        "id": "client_005",
+        "name": "Cairo Tech Hub",
+        "email": "support@cairohub.com",
+        "phone": "+201889990001",
+        "address": "654 Maadi, Cairo",
+        "logoUrl": "/logos/cairo-tech-hub.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Emergency System Recovery",
+          "price": 5000,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 5000
+        }
+      ],
+      "notes": "Critical system failure resolved",
+      "subtotal": 5000,
+      "taxTotal": 750,
+      "total": 5750,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-09-25T18:30:00Z",
+      "paidDate": "2023-09-28"
+    },
+    {
+      "id": "inv_031",
+      "title": "Unpaid Web Hosting",
+      "number": "INV-2023-031",
+      "date": "2023-09-10",
+      "dueDate": "2023-10-10",
+      "status": "overdue",
+      "client": {
+        "id": "client_001",
+        "name": "Tech Solutions Inc.",
+        "email": "contact@techsolutions.com",
+        "phone": "+201234567890",
+        "address": "123 Nile St., Cairo",
+        "logoUrl": "/logos/tech-solutions.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "Web Hosting Annual Fee",
+          "price": 1200,
+          "quantity": 1,
+          "currency": "USD",
+          "amount": 1200
+        }
+      ],
+      "notes": "Service will be suspended if not paid",
+      "subtotal": 1200,
+      "taxTotal": 180,
+      "total": 1380,
+      "taxRate": 15,
+      "currency": "USD",
+      "discount": 0,
+      "discountType": "fixed",
+      "createdAt": "2023-09-10T08:45:00Z"
+    },
+    {
+      "id": "J_5lI3ZU6ISsIrpn5cROl",
+      "title": "hey",
+      "number": "INV236254",
+      "date": "2025-07-23",
+      "dueDate": "2025-07-26",
+      "status": "draft",
+      "client": {
+        "id": "client_003",
+        "name": "Future Enterprises",
+        "email": "sales@futureent.com",
+        "phone": "+201112223334",
+        "address": "789 Zamalek, Cairo",
+        "logoUrl": "/logos/future-enterprises.png",
+        "isTemp": false
+      },
+      "services": [
+        {
+          "type": "service",
+          "description": "hey serv",
+          "price": 340.53,
+          "quantity": 3,
+          "currency": "USD",
+          "amount": 1021.5899999999999
+        },
+        {
+          "type": "item",
+          "description": "Samsung Galaxy S23",
+          "price": 799.99,
+          "quantity": 1,
+          "currency": "USD",
+          "productId": "prod_004",
+          "amount": 799.99
+        }
+      ],
+      "notes": "hello every body",
+      "subtotal": 91079,
+      "taxTotal": 2823.449,
+      "total": 93602.449,
+      "taxRate": 3.1,
+      "currency": "EGP",
+      "discount": 300,
+      "discountType": "fixed",
+      "createdAt": "2025-07-23T00:34:50.721Z"
+    }
+  ]
+}
